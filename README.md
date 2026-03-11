@@ -10,10 +10,10 @@ A beautiful, responsive, and zero-configuration MP3 player built with HTML, CSS,
 - **Infinite Loading States**: Visual feedback with a spinner when tracks are buffering.
 
 ## 📂 Setup & Deployment
-1. Upload `mp3player.html` and the `mp3s/` folder to your web host.
+1. Upload `index.html` and the `mp3s/` folder to your web host.
 2. Put your `.mp3` files into the `mp3s/` folder.
 3. Ensure the `.htaccess` file is inside the `mp3s/` folder to allow the server to list the files (required for the automatic playlist).
-4. Access `mp3player.html` through your browser via `http://` or `https://`.
+4. Access `index.html` through your browser via `http://` or `https://`.
 
 > [!IMPORTANT]
 > This player **must** be run from a web server (live or local) to allow the dynamic playlist scanning to function. It will not list files when opened as a local file (`file:///...`).
